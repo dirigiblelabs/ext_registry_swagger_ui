@@ -1,0 +1,14 @@
+{
+    "guid":"ext_registry_swagger_ui",
+    "repository":{
+        "type":"git","branch":"master","url":"https://github.com/dirigiblelabs/ext_registry_swagger_ui.git"
+    },
+    "dependencies": [
+        {
+            "guid":"swagger_ui",
+            "type": "git",
+            "url": "https://github.com/dirigiblelabs/swagger_ui.git",
+            "branch":"master"
+    	}
+	]
+}

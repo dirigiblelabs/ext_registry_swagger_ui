@@ -1,7 +1,11 @@
 /*eslint-env node */
 
-exports.getItem = function() {
-	var item = {
+exports.getType = function() {
+	return 'Discover';
+};
+
+exports.getHomeItem = function() {
+	return {
 		image: 'wrench',
 		color: 'green',
 		path: '../swagger_ui/index.html',
@@ -9,7 +13,6 @@ exports.getItem = function() {
 		description: "Swagger UI",
 		newTab: true
 	};
-	return item;
 };
 
 exports.getOrder = function() {
